@@ -1,7 +1,6 @@
 
 struct SomeCard: View {
     @State var flipped = false
-    @State var dragValue = CGSize(width: 0, height: 0)
     var body: some View {
         return ZStack {
             Image("insurance_card_back")  //  <- replace with your image
